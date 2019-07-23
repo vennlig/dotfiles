@@ -5,7 +5,7 @@
 
 PDIR="$HOME/.config/polybar"
 LAUNCH="polybar-msg cmd restart"
- 
+
 if  [[ $1 = "-amber" ]]; then
 # Replacing colors
 sed -i -e 's/bg = .*/bg = #f5f5f5/g' $PDIR/colors.ini
