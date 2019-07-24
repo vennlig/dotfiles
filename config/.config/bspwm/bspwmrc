@@ -8,8 +8,6 @@ compton &
 # Launch Polybar
 $HOME/.config/polybar/launch.sh
 
-# Desktop background
-feh --bg-scale ~/Pictures/wallpaper.jpg
 
 # Set mouse ptr
 xsetroot -cursor_name left_ptr
@@ -17,6 +15,10 @@ xsetroot -cursor_name left_ptr
 # Preserve my eyes 
 $HOME/.redshift/launch.sh
 
+WALLPAPER=~/.wallpaper/WatercolorFlora2_by_JulieSongInk1.jpg
+# Desktop background
+feh --bg-scale $WALLPAPER
+wal -i $WALLPAPER -l 
 
 # from https://github.com/dylanaraps/pywal/wiki/Customization#bspwm
 # Source and set colours with wal
