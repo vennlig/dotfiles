@@ -1,0 +1,13 @@
+[2019-08-20 08:51:00.903] [sharedprocess] [info] main {"machineId":"b78201c1f8a883ebe8c8b28f55ab6f0d61861018fb584c7e7c1127e588957120"}
+[2019-08-20 08:51:02.658] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-08-20 08:51:02.658] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2019-08-20 08:51:03.836] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /tmp/cb7232ce-2b4d-4004-84ae-0f425bce7bd9
+[2019-08-20 08:51:03.937] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.visualstudioexptteam.vscodeintellicode-1.1.9: visualstudioexptteam.vscodeintellicode
+[2019-08-20 08:51:03.937] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.1.9
+[2019-08-20 08:51:03.937] [sharedprocess] [info] Installation completed. visualstudioexptteam.vscodeintellicode
+[2019-08-20 08:51:03.945] [sharedprocess] [info] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[2019-08-20 08:51:05.890] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/82e5a993-099a-444d-925b-b70b693044fb
+[2019-08-20 08:51:06.672] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.ms-python.python-2019.8.30787: ms-python.python
+[2019-08-20 08:51:06.672] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/ms-python.python-2019.8.30787
+[2019-08-20 08:51:06.678] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-08-20 08:51:06.688] [sharedprocess] [info] Extensions installed successfully: ms-python.python

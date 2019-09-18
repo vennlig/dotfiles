@@ -1,0 +1,38 @@
+[2019-08-07 21:05:51.475] [sharedprocess] [info] main {"machineId":"b78201c1f8a883ebe8c8b28f55ab6f0d61861018fb584c7e7c1127e588957120"}
+[2019-08-07 21:06:31.477] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-08-07 21:45:24.813] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-08-07 21:45:27.437] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/590ead8d-1b25-49b2-b5b6-f70b4a334ebb
+[2019-08-07 21:45:28.189] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.ms-python.python-2019.8.29288: ms-python.python
+[2019-08-07 21:45:28.189] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/ms-python.python-2019.8.29288
+[2019-08-07 21:45:28.192] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-08-07 21:45:28.201] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2019-08-07 21:45:32.542] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2019-08-07 21:45:33.318] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/684a927e-699a-4743-9d7e-c8bcd0a33e15
+[2019-08-07 21:45:33.660] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.ms-vscode.cpptools-0.24.1: ms-vscode.cpptools
+[2019-08-07 21:45:33.660] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/ms-vscode.cpptools-0.24.1
+[2019-08-07 21:45:33.662] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2019-08-07 21:45:33.669] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2019-08-07 21:45:47.700] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2019-08-07 21:45:48.477] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /tmp/6deff525-ba08-48d0-ad5a-93925194b773
+[2019-08-07 21:45:48.711] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.ms-azuretools.vscode-docker-0.7.0: ms-azuretools.vscode-docker
+[2019-08-07 21:45:48.711] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/ms-azuretools.vscode-docker-0.7.0
+[2019-08-07 21:45:48.713] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2019-08-07 21:45:48.737] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2019-08-07 21:46:08.083] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-08-07 21:46:09.042] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/5973502a-bae3-496f-b523-4584df24d623
+[2019-08-07 21:46:10.578] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.vscodevim.vim-1.9.0: vscodevim.vim
+[2019-08-07 21:46:10.578] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/vscodevim.vim-1.9.0
+[2019-08-07 21:46:10.579] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-08-07 21:46:10.589] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2019-08-07 21:46:15.977] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2019-08-07 21:46:16.406] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /tmp/9daf4a8c-5764-4518-ad06-943eaf31f3bd
+[2019-08-07 21:46:16.458] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.visualstudioexptteam.vscodeintellicode-1.1.8: visualstudioexptteam.vscodeintellicode
+[2019-08-07 21:46:16.458] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.1.8
+[2019-08-07 21:46:16.458] [sharedprocess] [info] Installation completed. visualstudioexptteam.vscodeintellicode
+[2019-08-07 21:46:16.461] [sharedprocess] [info] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[2019-08-07 22:07:16.536] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2019-08-07 22:07:17.312] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /tmp/5f332b8a-e249-4753-95e6-8973b4c1cb78
+[2019-08-07 22:07:17.331] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.dbaeumer.vscode-eslint-1.9.0: dbaeumer.vscode-eslint
+[2019-08-07 22:07:17.331] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/dbaeumer.vscode-eslint-1.9.0
+[2019-08-07 22:07:17.332] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2019-08-07 22:07:17.336] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint

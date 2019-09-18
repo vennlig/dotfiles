@@ -15,10 +15,10 @@ xsetroot -cursor_name left_ptr
 # Preserve my eyes 
 $HOME/.redshift/launch.sh
 
-WALLPAPER=~/.wallpaper/WatercolorFlora2_by_JulieSongInk1.jpg
+WALLPAPER=~/.wallpaper/zpf5.jpg
 # Desktop background
 feh --bg-scale $WALLPAPER
-wal -i $WALLPAPER -l 
+wal -i $WALLPAPER # -l 
 
 # from https://github.com/dylanaraps/pywal/wiki/Customization#bspwm
 # Source and set colours with wal
@@ -40,7 +40,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
+bspc rule -a Chromium desktop='^1'
 bspc rule -a discord desktop='^4'
 bspc rule -a Firefox desktop='^1'
 bspc rule -a RuneScape desktop='^3'

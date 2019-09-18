@@ -1,0 +1,20 @@
+[2019-09-05 19:19:51.247] [sharedprocess] [info] main {"machineId":"b78201c1f8a883ebe8c8b28f55ab6f0d61861018fb584c7e7c1127e588957120"}
+[2019-09-05 19:19:52.732] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-09-05 19:19:52.733] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2019-09-05 19:19:52.734] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-09-05 19:19:54.594] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/4aedcc0c-0756-4903-b718-d951e0e06fb5
+[2019-09-05 19:19:55.147] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.ms-vscode.cpptools-0.25.1: ms-vscode.cpptools
+[2019-09-05 19:19:55.149] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/ms-vscode.cpptools-0.25.1
+[2019-09-05 19:19:55.177] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2019-09-05 19:19:55.195] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2019-09-05 19:19:56.819] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/2acaf20a-6bea-4a88-8234-afc3264f2807
+[2019-09-05 19:19:58.308] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.vscodevim.vim-1.10.2: vscodevim.vim
+[2019-09-05 19:19:58.308] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/vscodevim.vim-1.10.2
+[2019-09-05 19:19:58.309] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-09-05 19:19:58.320] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2019-09-05 19:20:03.135] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/8d34ddab-504e-4ba5-a560-da2544e6b3ac
+[2019-09-05 19:20:04.194] [sharedprocess] [info] Extracted extension to /home/song/.vscode-oss/extensions/.ms-python.python-2019.9.34474: ms-python.python
+[2019-09-05 19:20:04.194] [sharedprocess] [info] Renamed to /home/song/.vscode-oss/extensions/ms-python.python-2019.9.34474
+[2019-09-05 19:20:04.196] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-09-05 19:20:04.205] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2019-09-05 19:20:31.249] [sharedprocess] [info] Starting to clean up unused language packs.

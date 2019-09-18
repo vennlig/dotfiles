@@ -1,0 +1,30 @@
+[2019-08-28 23:21:56.333] [exthost] [info] extension host started
+[2019-08-28 23:21:56.340] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.340] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-08-28 23:21:56.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.343] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2019-08-28 23:21:56.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.367] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2019-08-28 23:21:56.418] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.418] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-08-28 23:21:56.422] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.422] [exthost] [info] ExtensionService#loadCommonJSModule /home/song/.vscode-oss/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2019-08-28 23:21:56.442] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.442] [exthost] [info] ExtensionService#loadCommonJSModule /home/song/.vscode-oss/extensions/ms-vscode.cpptools-0.25.0/dist/main
+[2019-08-28 23:21:56.527] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:21:56.527] [exthost] [info] ExtensionService#loadCommonJSModule /home/song/.vscode-oss/extensions/vscodevim.vim-1.9.0/out/extension
+[2019-08-28 23:21:56.776] [exthost] [info] eager extensions activated
+[2019-08-28 23:22:10.056] [exthost] [info] extension host started
+[2019-08-28 23:22:10.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:22:10.059] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-08-28 23:22:10.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:22:10.061] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2019-08-28 23:22:10.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:22:10.086] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2019-08-28 23:22:10.135] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:22:10.135] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-08-28 23:22:10.138] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:22:10.138] [exthost] [info] ExtensionService#loadCommonJSModule /home/song/.vscode-oss/extensions/dbaeumer.vscode-eslint-1.9.1/client/out/extension
+[2019-08-28 23:22:10.157] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-08-28 23:22:10.157] [exthost] [info] ExtensionService#loadCommonJSModule /home/song/.vscode-oss/extensions/vscodevim.vim-1.10.0/out/extension
+[2019-08-28 23:22:10.325] [exthost] [info] eager extensions activated
