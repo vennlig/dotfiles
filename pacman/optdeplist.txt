@@ -1,0 +1,5 @@
+cmake
+i3-wm
+lib32-v4l-utils
+ocl-icd
+qt5-websockets

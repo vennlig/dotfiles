@@ -1,0 +1,15 @@
+gamemode
+global
+godot
+google-chrome
+gotop
+lib32-gamemode
+minecraft-launcher
+mips64-elf-binutils
+nordvpn-bin
+polybar
+runelite
+snapd
+spotifyd
+ttf-symbola
+yay
