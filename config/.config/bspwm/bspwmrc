@@ -15,7 +15,7 @@ xsetroot -cursor_name left_ptr
 # Preserve my eyes 
 $HOME/.redshift/launch.sh
 
-WALLPAPER=~/.wallpaper/zpf5.jpg
+WALLPAPER=~/.wallpaper/tom-ritson-DBYV_V5spes-unsplash.jpg
 # Desktop background
 feh --bg-scale $WALLPAPER
 wal -i $WALLPAPER # -l 
