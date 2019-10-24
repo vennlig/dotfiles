@@ -15,10 +15,10 @@ xsetroot -cursor_name left_ptr
 # Preserve my eyes 
 $HOME/.redshift/launch.sh
 
-WALLPAPER=~/.wallpaper/tom-ritson-DBYV_V5spes-unsplash.jpg
+WALLPAPER=~/.wallpaper/pretty_flowers.jpg
 # Desktop background
 feh --bg-scale $WALLPAPER
-wal -i $WALLPAPER # -l 
+wal -i $WALLPAPER -l 
 
 # from https://github.com/dylanaraps/pywal/wiki/Customization#bspwm
 # Source and set colours with wal
