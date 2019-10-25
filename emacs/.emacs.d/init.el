@@ -6,7 +6,7 @@
 (package-refresh-contents)
 
 ;; my package list
-(setq my-package-list '(company helm  helm-gtags evil rtags all-the-icons neotree centaur-tabs solaire-mode rust-mode cargo racer))
+(setq my-package-list '(company helm  helm-gtags evil rtags all-the-icons neotree centaur-tabs rust-mode cargo racer))
 (mapc #'package-install my-package-list)
 
 ;; all the icons
@@ -27,18 +27,6 @@
 (setq centaur-tabs-set-bar 'over)
 (setq centaur-tabs-gray-out-icons 'buffer)
 (setq centaur-tabs-set-icons t)
-
-
-;; solaire
-;; (require 'solaire-mode)
-
-;; (solaire-global-mode +1)
-
-;; (add-hook 'ediff-prepare-buffer-hook #'solaire-mode)
-;; (add-hook 'after-revert-hook #'turn-on-solaire-mode)
-;; (add-hook 'minibuffer-setup-hook #'solaire-mode-in-minibuffer)
-
-;; (solaire-mode-swap-bg)
 
 ;; org
 (global-set-key (kbd "C-c l") 'org-store-link)
