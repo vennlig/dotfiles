@@ -2,4 +2,4 @@
 XTerm.termName: xterm-256color
 XTerm.vt100.locale: true
 XTerm.vt100.faceName: Source Code Pro:size=14:antialias=true
-emacs.font: Source Code Pro-14
+emacs.font: Source Code Pro-12
