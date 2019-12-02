@@ -3,7 +3,7 @@
 sxhkd &
 
 # Compositor
-compton & 
+picom & 
 
 # Launch Polybar
 $HOME/.config/polybar/launch.sh
@@ -18,7 +18,7 @@ $HOME/.redshift/launch.sh
 WALLPAPER=~/.wallpaper/pretty_flowers.jpg
 # Desktop background
 feh --bg-scale $WALLPAPER
-wal -i $WALLPAPER -l 
+wal -i $WALLPAPER # -l 
 
 # from https://github.com/dylanaraps/pywal/wiki/Customization#bspwm
 # Source and set colours with wal

@@ -6,7 +6,7 @@
 (package-refresh-contents)
 
 ;; my package list
-(setq my-package-list '(company helm  helm-gtags evil rtags all-the-icons neotree centaur-tabs rust-mode cargo racer))
+(setq my-package-list '(company helm  helm-gtags evil magit rtags all-the-icons neotree centaur-tabs rust-mode cargo racer))
 (mapc #'package-install my-package-list)
 
 ;; all the icons
