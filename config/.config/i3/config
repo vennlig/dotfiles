@@ -189,10 +189,10 @@ set $urgent-bg-color     #E53935
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+client.focused          $bg-color           $bg-color          $text-color          #00ff00	$bg-color
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00	$bg-color
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00	$bg-color
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00	$bg-color
 
 hide_edge_borders both
 
@@ -228,7 +228,7 @@ bindsym $mod+shift+x exec i3lock --color "$bg-color"
 
 exec firefox 
 
-# Start discord on startup
+# Start discord 
 # exec discord 
 
 # exec spotify 
@@ -239,9 +239,10 @@ exec redshift
 exec --no-startup-id compton
 
 # Background image
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpg 
+exec_always feh --bg-scale ~/.wallpaper/wallhaven/zmvgxw.jpg 
 
 # polybar script
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
 
 bindsym $mod+shift+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
