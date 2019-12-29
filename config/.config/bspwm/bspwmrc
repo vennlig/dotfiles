@@ -3,7 +3,7 @@
 sxhkd &
 
 # Compositor
-picom & 
+$HOME/.config/picom/launch.sh
 
 # Launch Polybar
 $HOME/.config/polybar/launch.sh
@@ -15,7 +15,7 @@ xsetroot -cursor_name left_ptr
 # Preserve my eyes 
 $HOME/.redshift/launch.sh
 
-WALLPAPER=~/.wallpaper/FsIVsFQ.jpg
+WALLPAPER=~/.wallpaper/jeremy-bishop-BuQ-jgeexaQ-unsplash.jpg
 
 # Desktop background
 feh --bg-scale $WALLPAPER
