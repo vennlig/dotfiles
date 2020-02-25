@@ -81,8 +81,8 @@
 (helm-mode 1)
 
 ;; evil
-(require 'evil)
-(evil-mode 1)
+;; (require 'evil)
+;; (evil-mode 1)
 
 ;; company
 ;; (add-hook 'after-init-hook 'global-company-mode)

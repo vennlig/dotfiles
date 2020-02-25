@@ -220,9 +220,6 @@ for_window [class="chromium"] border pixel 1
 # Lock screen
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
 
-# Start firefox-nightly on startup
-# exec firefox-nightly 
-
 # Set Norwegian keymap
 # setxkbmap no
 
@@ -242,7 +239,7 @@ exec --no-startup-id compton
 exec_always feh --bg-scale ~/.wallpaper/wallhaven/zmvgxw.jpg 
 
 # polybar script
-# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
-bindsym $mod+shift+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
+# bindsym $mod+shift+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
