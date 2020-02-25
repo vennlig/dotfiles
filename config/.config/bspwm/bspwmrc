@@ -23,7 +23,7 @@ wal -i $WALLPAPER # -l
 
 # from https://github.com/dylanaraps/pywal/wiki/Customization#bspwm
 # Source and set colours with wal
-. "${HOME}/.cache/wal/colors.sh"
+# . "${HOME}/.cache/wal/colors.sh"
 
 # Border colours
 bspc config normal_border_color "$color1"
