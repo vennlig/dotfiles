@@ -168,9 +168,9 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 ; label-separator = |
 
 
-#[module/mpd]
-#type = internal/mpd
-#format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
 icon-prev = 
 icon-stop = 
