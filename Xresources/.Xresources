@@ -2,3 +2,7 @@
 XTerm.termName: xterm-256color
 XTerm.vt100.locale: true
 XTerm.vt100.faceName: Source Code Pro:size=14:antialias=true
+
+*foreground: rgb:b2/b2/b2
+*background: rgb:08/08/08
+
