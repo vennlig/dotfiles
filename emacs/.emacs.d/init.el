@@ -114,7 +114,7 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
- '(custom-enabled-themes (quote (manoj-dark)))
+ '(custom-enabled-themes nil)
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
