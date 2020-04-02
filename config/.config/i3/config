@@ -37,7 +37,7 @@ set $mod Mod4
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xterm 
+bindsym $mod+Return exec alacritty 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -194,9 +194,9 @@ client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00	$bg-color
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00	$bg-color
 
-hide_edge_borders both
+# hide_edge_borders both
 
-default_border none
+default_border pixel 
 default_floating_border none
 
 # Start i3blocks to display a workspace bar (plus the system information i3status
@@ -223,7 +223,7 @@ bindsym $mod+shift+x exec i3lock --color "$bg-color"
 # Set Norwegian keymap
 # setxkbmap no
 
-exec firefox 
+# exec firefox 
 
 # Start discord 
 # exec discord 
@@ -233,7 +233,7 @@ exec firefox
 exec redshift
 
 # Start compton on startup
-exec --no-startup-id compton
+exec --no-startup-id picom 
 
 # Background image
 exec_always feh --bg-scale ~/.wallpaper/wallhaven/zmvgxw.jpg 
