@@ -205,5 +205,6 @@ for_window [class="Chromium"] border pixel 1
 # Screen locking
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
 
-exec picom -b
 exec feh --bg-scale ~/.wallpaper/lachlan-gowen-iuJZZqlbxks-unsplash.jpg
+exec redshift -l 59.91273:10.74609 &
+exec picom -b
