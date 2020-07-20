@@ -7,4 +7,4 @@ killall -q redshift
 while pgrep -u $UID -x redshift >/dev/null; do sleep 1; done
 
 # Launch redshift
-redshift -l  60.78333:10.63333 &
+redshift -l 60.78333:10.63333 &
