@@ -198,7 +198,6 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 default_border pixel 
 default_floating_border none
 
-
 assign [class="Chromium"] $ws1
 for_window [class="Chromium"] border pixel 1
 
