@@ -1,7 +1,24 @@
+
+" Lines to remember
+set history=500
+
+filetype plugin on
+filetype indent on
+
+syntax on
+
 set nocompatible
 
 " better command-line completion
 set wildmenu
+
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+if has("win16") || has("win32")
+    set wildignore+=.git\*,.hg\*,.svn\*
+else
+    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+endif
 
 " case insensitive search except for when using uppercase letters
 set ignorecase
@@ -12,14 +29,39 @@ set showcmd
 " search highlighting
 set hlsearch
 
+set incsearch
+
+set lazyredraw
+
+" for regular expressions
+set magic
+
+" show matching brackets
+set showmatch
+
+" no error sounds
+set noerrorbells
+set novisualbell
+
+" utf8 as standard encoding
+set encoding=utf8
+
 " line numbers
 set number
 
 set background=dark
 
-filetype plugin on
-syntax on
-filetype indent on
+
+" no backups
+set nobackup
+set nowb
+set noswapfile
+
+""""""""""""""""""""""""""""""""""""
+"				   "
+"		plugins		   "
+"				   "
+""""""""""""""""""""""""""""""""""""
 
 " pathogen
 execute pathogen#infect()
