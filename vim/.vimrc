@@ -1,67 +1,59 @@
-
-" Lines to remember
-set history=500
-
-filetype plugin on
-filetype indent on
-
-syntax on
-
+"""""""""""""""""""""""""""""""""""""""""""""""""
+"				   		"
+"			general			"
+"				    		"
+"""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
-
-" better command-line completion
-set wildmenu
-
-" Ignore compiled files
-set wildignore=*.o,*~,*.pyc
-if has("win16") || has("win32")
-    set wildignore+=.git\*,.hg\*,.svn\*
-else
-    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
-endif
-
-" case insensitive search except for when using uppercase letters
-set ignorecase
-set smartcase 
-
-set showcmd
-
-" search highlighting
-set hlsearch
-
-set incsearch
-
-set lazyredraw
-
-" for regular expressions
-set magic
-
-" show matching brackets
-set showmatch
-
-" no error sounds
-set noerrorbells
-set novisualbell
-
-" utf8 as standard encoding
-set encoding=utf8
-
-" line numbers
-set number
+set shell=/bin/sh
 
 set background=dark
 
+filetype plugin indent on	" detect filetypes
+syntax on			" enable syntax highlighting
+set mouse=a			" enable mouse
+set mousehide			" hide mouse cursor while typing
+scriptencoding utf-8
 
-" no backups
-set nobackup
-set nowb
-set noswapfile
+"""""""""""""""""""""""""""""""""""""""""""""""""
+"				   		"
+"			ui			"
+"				    		"
+"""""""""""""""""""""""""""""""""""""""""""""""""
 
-""""""""""""""""""""""""""""""""""""
-"				   "
-"		plugins		   "
-"				   "
-""""""""""""""""""""""""""""""""""""
+set backspace=indent,eol,start	" backspace
+set linespace=0			" no extra space between rows
+set number			" line numbers
+set showmatch			" matching () / {}
+set incsearch			" 
+set hlsearch			" search highlighting
+set winminheight=0		" 
+set ignorecase			" case insensitive search
+set smartcase			" case sensitive with upperacase characters
+set wildmenu			" 
+set wildmode=list:longest,full	" 
+set whichwrap=b,s,h,l,<,>,[,]	" 
+set scrolljump=5		" 
+set scrolloff=3			" 
+set foldenable			" 
+set list			" 
+
+
+set nowrap			" don't wrap long lines
+set autoindent			" same level of indentation as previous line
+set shiftwidth=4		" indent with 4 spaces
+set expandtab			" use tab as spaces
+set tabstop=4			" indent every 4 columns
+set softtabstop=4		" delete indents with backspace
+set nojoinspaces		" 
+set splitright			" vsplit windows to the right
+set splitbelow			" split below
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
+"				   		"
+"			plugins			"
+"				    		"
+"""""""""""""""""""""""""""""""""""""""""""""""""
 
 " pathogen
 execute pathogen#infect()
