@@ -6,7 +6,7 @@ sxhkd &
 $HOME/.config/picom/launch.sh
 
 # Polybar
-$HOME/.config/polybar/launch.sh
+# $HOME/.config/polybar/launch.sh
 
 # Set mouse ptr
 xsetroot -cursor_name left_ptr
