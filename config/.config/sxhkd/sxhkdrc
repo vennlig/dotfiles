@@ -4,7 +4,7 @@
 
 # terminal (xterm)
 super + Return
-    xterm	
+    alacritty	
 
 # program launcher
 super + d
@@ -47,8 +47,8 @@ super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # Toggle between floating and tiled
-# super + shift + space
-#   bspc node -t {floating,tiled}
+super + shift + space
+    bspc node -t {floating,tiled}
 
 # set the node flags
 super + ctrl + {m,x,y,z}

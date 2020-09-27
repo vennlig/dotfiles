@@ -6,23 +6,16 @@ sxhkd &
 $HOME/.config/picom/launch.sh
 
 # Polybar
-# $HOME/.config/polybar/launch.sh
+$HOME/.config/polybar/launch.sh
 
 # Set mouse ptr
 xsetroot -cursor_name left_ptr
 
 # Start redshift
-$HOME/.redshift/launch.sh
+# $HOME/.redshift/launch.sh
 
 # Desktop background
 feh --bg-scale ~/.wallpaper/lachlan-gowen-iuJZZqlbxks-unsplash.jpg
-
-# Set Colours with pywal
-# wal -i $WALLPAPER # -l 
-
-# from https://github.com/dylanaraps/pywal/wiki/Customization#bspwm
-# Source and set colours with wal
-# . "${HOME}/.cache/wal/colors.sh"
 
 # Border colours
 bspc config normal_border_color "$color1"
