@@ -4,11 +4,11 @@
 
 # terminal (xterm)
 super + Return
-    xterm
+	alacritty 
 
 # program launcher
 super + d
-    dmenu_run
+	rofi -show drun 
 
 # make sxhkd reload its configuration files:
 # super + Escape

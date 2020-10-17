@@ -3,10 +3,10 @@
 sxhkd &
 
 # Compositor
-$HOME/.config/picom/launch.sh
+picom &
 
 # Polybar
-$HOME/.config/polybar/launch.sh
+$HOME/.config/polybar/launch.sh &
 
 # Set mouse ptr
 xsetroot -cursor_name left_ptr
@@ -23,7 +23,7 @@ bspc config active_border_color "$color2"
 bspc config focused_border_color "$color15"
 bspc config presel_feedback_color "$color1"
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -39,3 +39,6 @@ bspc rule -a RuneScape desktop='^3'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+
+# JetBrains
+# wmname LG3D
