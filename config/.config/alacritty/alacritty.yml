@@ -159,6 +159,15 @@
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
+colors:
+  background: '#404552'
+  foreground: '#eeeeee'
+
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  
 # Colors (Tomorrow Night)
 #colors:
   # Default colors
