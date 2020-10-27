@@ -1,16 +1,20 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[44BACAB9BACAA730]
-row=0
+[/home/song/Desktop/steam.desktop]
+row=4
 col=0
 
-[HELLO]
+[/home/song/Desktop/Todo]
 row=2
 col=0
 
-[CA30BB8F30BB80CD]
+[3EC6E167C6E1203F]
 row=1
+col=0
+
+[44BACAB9BACAA730]
+row=0
 col=0
 
 [Trash]
