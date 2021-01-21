@@ -109,8 +109,8 @@ user_pref("privacy.spoof_english", 2);
 /* enable session restore ***/
 user_pref("browser.startup.page", 3); // 0102
 user_pref("browser.privatebrowsing.autostart", false); // 0110
-// user_pref("places.history.enabled", true); // 0862
-// user_pref("browser.sessionstore.privacy_level", 0); // 1021
+user_pref("places.history.enabled", true); // 0862
+user_pref("browser.sessionstore.privacy_level", 0); // 1021
 user_pref("privacy.clearOnShutdown.history", false); // 2803
 user_pref("privacy.clearOnShutdown.cookies", false); // 2803
 user_pref("privacy.clearOnShutdown.formdata", true); // 2803
