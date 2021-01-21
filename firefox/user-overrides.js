@@ -120,3 +120,4 @@ user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download Hist
 user_pref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
 user_pref("privacy.clearOnShutdown.sessions", false); // Active Logins
 user_pref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
+user_pref("privacy.resistFingerprinting.letterboxing", false);
