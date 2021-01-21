@@ -1,11 +1,14 @@
 user_pref("browser.safebrowsing.downloads.remote.enabled", true);
 
-/* Media */
+/* Media permissions */
 user_pref("permissions.default.camera", 2);
 user_pref("permissions.default.microphone", 2);
+user_pref("permissions.default.desktop-notification", 2);
+user_pref("permissions.default.geo", 2);
+user_pref("permissions.default.shortcuts", 2);
 
 user_pref("media.autoplay.default", 5);
-user_pref("full-screen-api.enabled", false);
+// user_pref("full-screen-api.enabled", false);
 
 /* Service Workers */
 user_pref("dom.webnotifications.enabled", false);
@@ -84,7 +87,7 @@ user_pref("browser.urlbar.autoFill", false);
 
 
 /* disable browsing and download history */
-user_pref("places.history.enabled", false);
+// user_pref("places.history.enabled", false);
 
 /* disable saving passwords */
 user_pref("signon.rememberSignons", false);
@@ -100,3 +103,15 @@ user_pref("media.gmp-widevinecdm.enabled", true);
 /* disable media capabilities API */
 user_pref("media.media-capabilities.enabled", false);
 
+/* English */
+user_pref("privacy.spoof_english", 2);
+
+/* enable session restore ***/
+user_pref("browser.startup.page", 3); // 0102
+user_pref("browser.privatebrowsing.autostart", false); // 0110
+// user_pref("places.history.enabled", true); // 0862
+// user_pref("browser.sessionstore.privacy_level", 0); // 1021
+user_pref("privacy.clearOnShutdown.history", false); // 2803
+user_pref("privacy.clearOnShutdown.cookies", false); // 2803
+user_pref("privacy.clearOnShutdown.formdata", true); // 2803
+user_pref("privacy.cpd.history", false); // 2804
