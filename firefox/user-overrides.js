@@ -45,13 +45,9 @@ user_pref("permissions.default.shortcuts", 2);
 /* disable "open with" in download dialog */
 user_pref("browser.download.forbid_open_with", true);
 
-/* delete cookies and site data on close */
-user_pref("network.cookie.lifetimePolicy", 2);
-
 /* disable service worker cache and cache storage */
 user_pref("dom.caches.enabled", false);
 
-user_pref("privacy.clearOnShutdown.openWindows", true);
 
 /* fingerprinting */
 
@@ -120,4 +116,11 @@ user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download Hist
 user_pref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
 user_pref("privacy.clearOnShutdown.sessions", false); // Active Logins
 user_pref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
+user_pref("privacy.clearOnShutdown.openWindows", false);
+
 user_pref("privacy.resistFingerprinting.letterboxing", false);
+
+
+/* delete cookies and site data on close */
+// user_pref("network.cookie.lifetimePolicy", 2);
+
