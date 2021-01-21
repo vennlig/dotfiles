@@ -107,12 +107,16 @@ user_pref("media.media-capabilities.enabled", false);
 user_pref("privacy.spoof_english", 2);
 
 /* enable session restore ***/
-user_pref("browser.startup.page", 3); // 0102
+user_pref("browser.startup.page", 3); // 0102 // 0=blank, 1=home, 2=last visited page, 3=resume previous session.
 user_pref("browser.privatebrowsing.autostart", false); // 0110
 user_pref("places.history.enabled", true); // 0862
 user_pref("browser.sessionstore.privacy_level", 0); // 1021
-user_pref("privacy.clearOnShutdown.history", false); // 2803
+
+user_pref("privacy.clearOnShutdown.cache", true);
 user_pref("privacy.clearOnShutdown.cookies", false); // 2803
-user_pref("privacy.clearOnShutdown.formdata", true); // 2803
-user_pref("privacy.clearOnShutdown.sessions", false);
-user_pref("privacy.cpd.history", false); // 2804
+user_pref("privacy.clearOnShutdown.downloads", true); // see note above
+user_pref("privacy.clearOnShutdown.formdata", true); // Form & Search History
+user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download History
+user_pref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
+user_pref("privacy.clearOnShutdown.sessions", false); // Active Logins
+user_pref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
