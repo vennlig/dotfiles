@@ -114,4 +114,5 @@ user_pref("browser.sessionstore.privacy_level", 0); // 1021
 user_pref("privacy.clearOnShutdown.history", false); // 2803
 user_pref("privacy.clearOnShutdown.cookies", false); // 2803
 user_pref("privacy.clearOnShutdown.formdata", true); // 2803
+user_pref("privacy.clearOnShutdown.sessions", false);
 user_pref("privacy.cpd.history", false); // 2804
