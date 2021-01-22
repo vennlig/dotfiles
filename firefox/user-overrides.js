@@ -34,7 +34,7 @@ user_pref("dom.battery.enabled", false);
 
 /* disable virtual reality devices */
 user_pref("dom.vr.enabled", false);
-user_pref("permissions.default.xr", 2);
+// user_pref("permissions.default.xr", 2);
 
 /* disable mathml (mathematical markup language) */
 user_pref("mathml.disabled", true);
@@ -75,7 +75,7 @@ user_pref("extensions.screenshots.upload-disabled", true);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", true);
 user_pref("browser.urlbar.suggest.openpage", true);
-user_pref("browser.urlbar.suggest.topstites", false);
+user_pref("browser.urlbar.suggest.topsites", false);
 
 /* disable location bar autofill */
 user_pref("browser.urlbar.autoFill", false);
@@ -120,3 +120,11 @@ user_pref("privacy.resistFingerprinting.letterboxing", false);
 /* delete cookies and site data on close */
 user_pref("network.cookie.lifetimePolicy", 2);
 
+/* extension stuff */
+/* pocket; idk if this does anything */
+user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.screenshots.disabled", true);
+
+/* don't recommend me stuff */
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
