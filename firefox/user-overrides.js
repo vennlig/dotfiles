@@ -108,7 +108,8 @@ user_pref("browser.privatebrowsing.autostart", false); // 0110
 user_pref("places.history.enabled", true); // 0862
 user_pref("browser.sessionstore.privacy_level", 0); // 1021
 
-user_pref("privacy.clearOnShutdown.cache", true);
+
+user_pref("privacy.clearOnShutdown.cache", false
 user_pref("privacy.clearOnShutdown.cookies", true); // 2803
 user_pref("privacy.clearOnShutdown.downloads", true); // see note above
 user_pref("privacy.clearOnShutdown.formdata", true); // Form & Search History
