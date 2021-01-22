@@ -1,11 +1,11 @@
 user_pref("browser.safebrowsing.downloads.remote.enabled", true);
 
 /* Media permissions */
-user_pref("permissions.default.camera", 2);
-user_pref("permissions.default.microphone", 2);
-user_pref("permissions.default.desktop-notification", 2);
-user_pref("permissions.default.geo", 2);
-user_pref("permissions.default.shortcuts", 2);
+// user_pref("permissions.default.camera", 2);
+// user_pref("permissions.default.microphone", 2);
+// user_pref("permissions.default.desktop-notification", 2);
+// user_pref("permissions.default.geo", 2);
+// user_pref("permissions.default.shortcuts", 2);
 
 user_pref("media.autoplay.default", 5);
 // user_pref("full-screen-api.enabled", false);
@@ -109,7 +109,7 @@ user_pref("places.history.enabled", true); // 0862
 user_pref("browser.sessionstore.privacy_level", 0); // 1021
 
 user_pref("privacy.clearOnShutdown.cache", true);
-user_pref("privacy.clearOnShutdown.cookies", false); // 2803
+user_pref("privacy.clearOnShutdown.cookies", true); // 2803
 user_pref("privacy.clearOnShutdown.downloads", true); // see note above
 user_pref("privacy.clearOnShutdown.formdata", true); // Form & Search History
 user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download History
