@@ -71,7 +71,6 @@ user_pref("extensions.screenshots.upload-disabled", true);
 
 
 /* search */
-
 /* disable suggestions */
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", true);
@@ -80,10 +79,6 @@ user_pref("browser.urlbar.suggest.topstites", false);
 
 /* disable location bar autofill */
 user_pref("browser.urlbar.autoFill", false);
-
-
-/* disable browsing and download history */
-// user_pref("places.history.enabled", false);
 
 /* disable saving passwords */
 user_pref("signon.rememberSignons", false);
@@ -106,22 +101,22 @@ user_pref("privacy.spoof_english", 2);
 user_pref("browser.startup.page", 3); // 0102 // 0=blank, 1=home, 2=last visited page, 3=resume previous session.
 user_pref("browser.privatebrowsing.autostart", false); // 0110
 user_pref("places.history.enabled", true); // 0862
-user_pref("browser.sessionstore.privacy_level", 0); // 1021
+user_pref("browser.sessionstore.privacy_level", 2); // 1021 // 2 = Never store extra session data.
 
 
-user_pref("privacy.clearOnShutdown.cache", false
+user_pref("privacy.clearOnShutdown.cache", false);
 user_pref("privacy.clearOnShutdown.cookies", true); // 2803
 user_pref("privacy.clearOnShutdown.downloads", true); // see note above
 user_pref("privacy.clearOnShutdown.formdata", true); // Form & Search History
 user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download History
 user_pref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
-user_pref("privacy.clearOnShutdown.sessions", false); // Active Logins
-user_pref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
+user_pref("privacy.clearOnShutdown.sessions", true); // Active Logins
+user_pref("privacy.clearOnShutdown.siteSettings", true); // Site Preferences
 user_pref("privacy.clearOnShutdown.openWindows", false);
 
 user_pref("privacy.resistFingerprinting.letterboxing", false);
 
 
 /* delete cookies and site data on close */
-// user_pref("network.cookie.lifetimePolicy", 2);
+user_pref("network.cookie.lifetimePolicy", 2);
 
