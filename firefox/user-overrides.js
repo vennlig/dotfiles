@@ -1,6 +1,6 @@
 user_pref("browser.safebrowsing.downloads.remote.enabled", true);
 
-/* Media permissions */
+/* Media permissions set to block by default */
 // user_pref("permissions.default.camera", 2);
 // user_pref("permissions.default.microphone", 2);
 // user_pref("permissions.default.desktop-notification", 2);
@@ -10,7 +10,7 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", true);
 user_pref("media.autoplay.default", 5);
 // user_pref("full-screen-api.enabled", false);
 
-/* Service Workers */
+/* Notification related Service Workers */
 user_pref("dom.webnotifications.enabled", false);
 user_pref("dom.webnotifications.serviceworker.enabled", false);
 
@@ -29,7 +29,7 @@ user_pref("dom.webnotifications.enabled", false);
 */
 
 
-/* Battery metric enabled */
+/* Disable battery metric */
 user_pref("dom.battery.enabled", false);
 
 /* disable virtual reality devices */
@@ -128,3 +128,9 @@ user_pref("extensions.screenshots.disabled", true);
 /* don't recommend me stuff */
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
+
+user_pref("browser.chrome.site_icons", false); // 1031 // no favicons in history/bookmarks
+user_pref("alerts.showFavicons", false); // 1032 // no favicons in web notifications
+
+/* 2654: disable "open with" in download dialog [FF50+] [SETUP-HARDEN] */
+user_pref("browser.download.forbid_open_with", true);
