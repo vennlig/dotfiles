@@ -87,9 +87,6 @@ user_pref("signon.rememberSignons", false);
 /* don't allow sub-resources to open HTTP authentication credentials dialogs */
 user_pref("network.auth.subresource-http-auth-allow", 0);
 
-/* drm needed for netflix :) */
-user_pref("media.gmp-widevinecdm.visible", true);
-user_pref("media.gmp-widevinecdm.enabled", true);
 
 /* disable media capabilities API */
 user_pref("media.media-capabilities.enabled", false);
