@@ -49,6 +49,7 @@ user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", true);
 user_pref("browser.urlbar.suggest.openpage", true);
 user_pref("browser.urlbar.suggest.topsites", false);
+user_pref("browser.urlbar.suggest.engines", false);
 
 /* disable location bar autofill */
 user_pref("browser.urlbar.autoFill", false);
@@ -58,7 +59,6 @@ user_pref("browser.urlbar.autoFill", false);
 
 /* don't allow sub-resources to open HTTP authentication credentials dialogs */
 user_pref("network.auth.subresource-http-auth-allow", 0);
-
 
 /* disable media capabilities API */
 user_pref("media.media-capabilities.enabled", false);
