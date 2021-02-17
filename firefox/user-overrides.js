@@ -54,7 +54,7 @@ user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.autoFill", false);
 
 /* disable saving passwords */
-user_pref("signon.rememberSignons", false);
+// user_pref("signon.rememberSignons", false);
 
 /* don't allow sub-resources to open HTTP authentication credentials dialogs */
 user_pref("network.auth.subresource-http-auth-allow", 0);
