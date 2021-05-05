@@ -2,7 +2,7 @@ configuration {
 	modi: 		"window,drun";
 	font: 		"mono 12";
 	icon-theme: 	"papirus";
-	theme: 		"sidebar";
+	theme: 		"Pop-Dark";
 
 	show-icons: 	false;
 
