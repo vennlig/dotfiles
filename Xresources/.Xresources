@@ -4,6 +4,11 @@ XTerm.vt100.metaSendsEscape: true
 XTerm.vt100.faceName: Source Code Pro:size=14:antialias=true
 ! XTerm.vt100.reverseVideo: true
 
+URxvt.termName: rxvt-unicode-256color
+URxvt*scrollTtyOutput: false
+URxvt*scrollWIthBuffer: true
+URxvt*scrolTtyKeypress: true
+
 *foreground: rgb:b2/b2/b2
 *background: rgb:08/08/08
 
