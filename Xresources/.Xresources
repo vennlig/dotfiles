@@ -1,16 +1,27 @@
+! ---------- xterm ----------
 XTerm.termName: xterm-256color
 XTerm.vt100.locale: true
 XTerm.vt100.metaSendsEscape: true
-XTerm.vt100.faceName: Source Code Pro:size=14:antialias=true
+XTerm.vt100.faceName: Source Code Pro:size=12:antialias=true
 ! XTerm.vt100.reverseVideo: true
+UXTerm.termName: xterm-256color
+UXTerm.vt100.locale: true
+UXTerm.vt100.metaSendsEscape: true
+UXTerm.vt100.faceName: Source Code Pro:size=12:antialias=true
+! ---------- xterm ----------
 
+! ---------- urxvt ----------
 URxvt.termName: rxvt-unicode-256color
 URxvt*scrollTtyOutput: false
 URxvt*scrollWIthBuffer: true
 URxvt*scrolTtyKeypress: true
+! ---------- urxvt ----------
 
+! ---------- colors ----------
 *foreground: rgb:b2/b2/b2
 *background: rgb:08/08/08
+! ---------- colors ----------
+
 
 ! Scaling
 Xft.dpi: 96
