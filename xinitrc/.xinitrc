@@ -50,4 +50,4 @@ fi
 
 setxkbmap no
 # exec bspwm 
-exec i3
+exec startxfce4 
